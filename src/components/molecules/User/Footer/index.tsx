@@ -13,6 +13,7 @@ const Footer = () => {
     <Box
       sx={{
         width: "97%",
+        maxWidth: '1440px',
         margin: "1rem auto",
         backgroundColor: "#001E00",
         display: "flex",

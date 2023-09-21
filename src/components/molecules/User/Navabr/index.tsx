@@ -49,7 +49,7 @@ const Navbar = () => {
     setAnchorElUser(null);
   };
   return (
-    <AppBar sx={{ background: '#fff', boxShadow: 'none' }} position='static'>
+    <AppBar sx={{ background: '#fff', boxShadow: 'none', maxWidth: '1440px', margin: '0 auto' }} position='static'>
       <Container maxWidth='xl'>
         <Toolbar disableGutters>
           <Box

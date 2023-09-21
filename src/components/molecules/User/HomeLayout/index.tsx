@@ -5,7 +5,7 @@ import Footer from '../Footer';
 
 const HomeLayout = () => {
   return (
-    <Box mt='1rem' sx={{ width: '100%' }}>
+    <Box mt="1rem" sx={{ width: "100%", maxWidth: '1440px', margin: '0 auto' }}>
       <Stack
         sx={{ margin: '0 auto' }}
         width={'80%'}
