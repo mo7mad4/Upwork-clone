@@ -238,9 +238,9 @@ const Navbar = () => {
               open={Boolean(anchorElUser)}>
               <MenuItem onClick={handleCloseUserMenu}>
                 <Stack direction='column' alignItems='center'>
-                  <Avatar alt='Remy Sharp' src='/static/images/avatar/2.jpg' />
+                  <Avatar alt='Remy Sharp' src='/assets/images/profile.jpeg' />
                   <Typography variant='body1' sx={{ fontSize: '14px' }}>
-                    Mohammed Raida{' '}
+                    Bayan Elian{' '}
                   </Typography>
                   <Typography sx={{ fontSize: '12px' }} variant='body2'>
                     Freelancer

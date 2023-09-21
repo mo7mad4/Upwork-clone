@@ -31,7 +31,7 @@ const Sidebar = () => {
                 },
               }}
             >
-              Mohammed Raida
+              Bayan Elian 
             </Typography>
           </Link>
           <Typography

@@ -148,7 +148,7 @@ const LoginForm = () => {
             </Button>
           </Box>
           <Typography className='line' variant='body2' component={'div'}>
-            Don't have an Upwork account?
+            Don&apos;t have an Upwork account?
           </Typography>
           <Button
             sx={{
