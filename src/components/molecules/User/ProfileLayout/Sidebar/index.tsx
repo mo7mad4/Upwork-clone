@@ -1,39 +1,37 @@
 import { Avatar, Box, Stack, Typography, Divider, Slider } from "@mui/material";
-import Link from "next/link";
 import EditButton from "@/components/atoms/EditButton";
 
 const Sidebar = () => {
   return (
     <Stack
       direction="column"
-      alignItems={"center"}
       spacing={2}
       sx={{
         width: "100%",
-        border: "1px solid #ddd",
-        borderRadius: "1rem",
         padding: "1rem 0",
       }}
     >
-      <Stack direction="column" alignItems="center" spacing={1}>
-        <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-        <Box textAlign={"center"}>
-          <Link href="profile">
-            <Typography
-              variant="body1"
-              sx={{
-                fontSize: "16px",
-                fontWeight: "500",
-                color: "#001e00",
-                cursor: "pointer",
-                "&:hover": {
-                  color: "#14a800",
-                },
-              }}
-            >
-              Mohammed Raida
-            </Typography>
-          </Link>
+      <Stack
+        direction="column"
+        spacing={1}
+        sx={{
+          padding: "0 1rem",
+        }}
+      >
+        <Box>
+          <Typography
+            variant="body1"
+            sx={{
+              fontSize: "16px",
+              fontWeight: "600",
+              color: "#001e00",
+              display: "flex",
+              gap: "1rem",
+            }}
+          >
+            View profile
+            <EditButton/>
+          </Typography>
           <Typography
             sx={{ fontSize: "12px", color: "#001e00" }}
             variant="body2"

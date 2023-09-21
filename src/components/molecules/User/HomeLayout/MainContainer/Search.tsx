@@ -3,6 +3,7 @@ import { Input } from "@mui/joy";
 import { Box } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
+
 const Search = () => {
   return (
     <Box sx={{ width: "100%" }}>

@@ -14,7 +14,8 @@ function CustomTabPanel(props: ITabPanelProps) {
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
-      {...other}>
+      {...other}
+    >
       {value === index && (
         <Box>
           <Typography>{children}</Typography>
@@ -37,7 +38,7 @@ const TabsSection = () => {
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
   };
-
+  
   return (
     <Stack
       direction="column"
@@ -88,7 +89,7 @@ const TabsSection = () => {
               paddingBottom: "1rem",
               padding: "1rem 0 1rem 1rem",
             }}>
-            Browse jobs that match your experience to a client's hiring
+            Browse jobs that match your experience to a client&apos;s hiring
             preferences. Ordered by most relevant.
           </Typography>
           <JopDescription />
